@@ -135,7 +135,7 @@
 const str = "ротатор";
 const newString = "коробка";
 
-const palinDrop = str .split("").reverse().join("")
+const palinDrop = str.split("").reverse().join("")
 console.log(palinDrop)
 
 
