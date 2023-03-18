@@ -49,7 +49,17 @@
 // Задача №4 робимо разом
 
 // Напиши код який шукає найменше число в масиві
-// const numbers = [2, 17, 94, 1, 23, 37];
+const numbers = [2, 17, 94, 1, 23, 37];
+let smallNumber = numbers [0]
+for (const number of numbers) {
+    if(smallNumber > number){
+        smallNumber = number
+    console.log(number)
+    
+    }
+       
+    
+}
 
 // ..............................
 // Задача № 5

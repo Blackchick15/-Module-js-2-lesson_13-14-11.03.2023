@@ -32,6 +32,74 @@
 // виведи строку
 // "Такої кількості зірок немає"
 
+// const stars = 1;
+// let price;
+
+// switch(stars){
+//     case 1:
+//         price = 20;
+//         break
+
+//         case 2:
+//             price = 30;
+//             break
+
+//              case 3:
+//             price = 50;
+//             break
+
+//             case 4:
+//                 price = 70;
+//                 break
+
+//                 case 5:
+//                     price = 120;
+//                     break
+
+//                     default:
+//                         console.log("Такої кількості зірок немає")
+// }
+
+// console.log(price)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if(stars === 1 ){
+//     price = 20;
+// }else if(stars === 2){
+//     price = 30;
+
+// }else if(stars === 3){
+//     price = 50;
+    
+// }else if(stars === 4){
+//     price = 70;
+    
+// }else if(stars === 5){
+//     price = 120;
+    
+// }else{
+//     console.log("Такої кількості зірок немає")
+// }
+
+// console.log("price")
+
+
+
+
 // ..............................
 // Задача № 3
 // Напиши скрипт вибору оцінки доставки товару
@@ -61,11 +129,29 @@
 // ...................
 // Методи масивів
 
-// plit() join() reverse()
+// split() join() reverse()
 // Задача  № 6
 // Перевірити чи наша строка являється – паліндромом.
-// const str = "ротатор";
-// const newString = "коробка";
+const str = "ротатор";
+const newString = "коробка";
+
+const palinDrop = str .split("").reverse().join("")
+console.log(palinDrop)
+
+
+
+
+
+
+
+
+
+
+
+// const array = str.split("")
+// array.reverse()
+// const joinString = array.join("")
+// console.log(joinString === str)
 
 // ........................
 // Задача № 7.1
