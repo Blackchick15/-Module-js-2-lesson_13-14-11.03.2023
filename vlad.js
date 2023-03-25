@@ -21,6 +21,16 @@
 // let balanse = 25000;
 // const payment = 5000;
 
+// console.log(`Загальна вартість товару замовлення ${payment}  кредитів.
+//     Перевіряєм кількість доступних коштів на рахунку`)
+
+//     if(balanse >= payment){
+//         balanse -= payment
+//         console.log(`На рахунку залишилось ${balanse} кредитів`)
+//     }else{
+//         console.log('На рахунку не достатньо коштів для проведення операції!')
+//     }
+//     console.log('Операція завершена')
 // .....................
 // Задача№ 2
 // спочатку if else
@@ -117,7 +127,17 @@
 // Задача №4 робимо разом
 
 // Напиши код який шукає найменше число в масиві
-// const numbers = [2, 17, 94, 1, 23, 37];
+const numbers = [2, 17, 94, 1, 23, 37];
+let smallNumber = numbers [0]
+for (const number of numbers) {
+    if(smallNumber > number){
+        smallNumber = number
+    console.log(number)
+    
+    }
+       
+    
+}
 
 // .......................
 // Задача № 5
